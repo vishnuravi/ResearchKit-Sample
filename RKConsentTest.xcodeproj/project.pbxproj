@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		279C98A026BAD2A7001F6D91 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */; };
-		279C98A126BAD2A7001F6D91 /* OnboardingViewController+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C989E26BAD2A7001F6D91 /* OnboardingViewController+Coordinator.swift */; };
 		27C4DA6026BAD224005DBEF0 /* RKConsentTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */; };
-		27C4DA6226BAD224005DBEF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C4DA6126BAD224005DBEF0 /* ContentView.swift */; };
 		27C4DA6426BAD225005DBEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C4DA6326BAD225005DBEF0 /* Assets.xcassets */; };
 		27C4DA6726BAD225005DBEF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C4DA6626BAD225005DBEF0 /* Preview Assets.xcassets */; };
 		7D54C9D343D155986AA6B1CE /* Pods_RKConsentTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C28EACA3456D5843168975 /* Pods_RKConsentTest.framework */; };
@@ -18,10 +16,8 @@
 
 /* Begin PBXFileReference section */
 		279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		279C989E26BAD2A7001F6D91 /* OnboardingViewController+Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OnboardingViewController+Coordinator.swift"; sourceTree = "<group>"; };
 		27C4DA5C26BAD224005DBEF0 /* RKConsentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKConsentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKConsentTestApp.swift; sourceTree = "<group>"; };
-		27C4DA6126BAD224005DBEF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27C4DA6326BAD225005DBEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C4DA6626BAD225005DBEF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27C4DA6826BAD225005DBEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,9 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */,
-				27C4DA6126BAD224005DBEF0 /* ContentView.swift */,
 				279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */,
-				279C989E26BAD2A7001F6D91 /* OnboardingViewController+Coordinator.swift */,
 				27C4DA6326BAD225005DBEF0 /* Assets.xcassets */,
 				27C4DA6826BAD225005DBEF0 /* Info.plist */,
 				27C4DA6526BAD225005DBEF0 /* Preview Content */,
@@ -212,8 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279C98A126BAD2A7001F6D91 /* OnboardingViewController+Coordinator.swift in Sources */,
-				27C4DA6226BAD224005DBEF0 /* ContentView.swift in Sources */,
 				27C4DA6026BAD224005DBEF0 /* RKConsentTestApp.swift in Sources */,
 				279C98A026BAD2A7001F6D91 /* OnboardingViewController.swift in Sources */,
 			);
