@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct RKConsentTestApp: App {
+    @Environment(\.viewController) private var viewControllerHolder: UIViewController?
+    
     var body: some Scene {
         WindowGroup {
-            OnboardingViewController()
+            Button("Open Consent") {
+                self.viewControllerHolder?.present(OnboardingViewControllerUIKit(), animated: true, completion: nil)
+            }
         }
     }
 }

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		279C98A026BAD2A7001F6D91 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */; };
 		27C4DA6026BAD224005DBEF0 /* RKConsentTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */; };
 		27C4DA6426BAD225005DBEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C4DA6326BAD225005DBEF0 /* Assets.xcassets */; };
 		27C4DA6726BAD225005DBEF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C4DA6626BAD225005DBEF0 /* Preview Assets.xcassets */; };
 		7D54C9D343D155986AA6B1CE /* Pods_RKConsentTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C28EACA3456D5843168975 /* Pods_RKConsentTest.framework */; };
+		8E9FDDFA26CDA53500201B78 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FDDF926CDA53500201B78 /* Extensions.swift */; };
+		8E9FDDFC26CDA65A00201B78 /* OnboardingViewControllerUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FDDFB26CDA65A00201B78 /* OnboardingViewControllerUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		27C4DA5C26BAD224005DBEF0 /* RKConsentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKConsentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKConsentTestApp.swift; sourceTree = "<group>"; };
 		27C4DA6326BAD225005DBEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +24,8 @@
 		400CE43ABE82AB6717DA8437 /* Pods-RKConsentTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKConsentTest.debug.xcconfig"; path = "Target Support Files/Pods-RKConsentTest/Pods-RKConsentTest.debug.xcconfig"; sourceTree = "<group>"; };
 		48C28EACA3456D5843168975 /* Pods_RKConsentTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKConsentTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB0F602BC76FFBA059F495B /* Pods-RKConsentTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKConsentTest.release.xcconfig"; path = "Target Support Files/Pods-RKConsentTest/Pods-RKConsentTest.release.xcconfig"; sourceTree = "<group>"; };
+		8E9FDDF926CDA53500201B78 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E9FDDFB26CDA65A00201B78 /* OnboardingViewControllerUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewControllerUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				27C4DA5F26BAD224005DBEF0 /* RKConsentTestApp.swift */,
-				279C989D26BAD2A7001F6D91 /* OnboardingViewController.swift */,
 				27C4DA6326BAD225005DBEF0 /* Assets.xcassets */,
 				27C4DA6826BAD225005DBEF0 /* Info.plist */,
 				27C4DA6526BAD225005DBEF0 /* Preview Content */,
+				8E9FDDF926CDA53500201B78 /* Extensions.swift */,
+				8E9FDDFB26CDA65A00201B78 /* OnboardingViewControllerUIKit.swift */,
 			);
 			path = RKConsentTest;
 			sourceTree = "<group>";
@@ -207,7 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C4DA6026BAD224005DBEF0 /* RKConsentTestApp.swift in Sources */,
-				279C98A026BAD2A7001F6D91 /* OnboardingViewController.swift in Sources */,
+				8E9FDDFA26CDA53500201B78 /* Extensions.swift in Sources */,
+				8E9FDDFC26CDA65A00201B78 /* OnboardingViewControllerUIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
