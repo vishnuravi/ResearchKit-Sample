@@ -2,7 +2,7 @@
 //  OnboardingViewController.swift
 //  CardinalKit_Example
 //
-//  Created by Santiago Gutierrez on 10/12/20.
+//  Created by Surabhi Mundada on 1/12/22.
 //  Copyright © 2020 CocoaPods. All rights reserved.
 //
 
@@ -13,6 +13,10 @@ import ResearchKit
 struct OnboardingViewController: UIViewControllerRepresentable {
     
     typealias UIViewControllerType = ORKTaskViewController
+    
+    func makeCoordinator() -> OnboardingViewCoordinator {
+        OnboardingViewCoordinator()
+    }
     
     func updateUIViewController(_ taskViewController: ORKTaskViewController, context: Context) {}
     
@@ -79,6 +83,7 @@ struct OnboardingViewController: UIViewControllerRepresentable {
         
         // wrap that task on a view controller
         let taskViewController = ORKTaskViewController(task: orderedTask, taskRun: nil)
+        taskViewController.delegate = context.coordinator
         
         // & present the VC!
         return taskViewController
